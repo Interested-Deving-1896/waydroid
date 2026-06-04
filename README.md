@@ -1,37 +1,71 @@
-<img align="left" src="data/AppIcon.png" width="64">
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# waydroid
 
-# Waydroid
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/waydroid)
 
-Waydroid uses a container-based approach to boot a full Android system on a
-regular GNU/Linux system.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Overview
+## Architecture
 
-Waydroid uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a
-full Android system in a container and provide Android applications on
-any GNU/Linux-based platform.
-
-The Android system inside the container has direct access to any needed hardware.
-
-The Android runtime environment ships with a minimal customized Android system
-image based on [LineageOS](https://lineageos.org/). The image is currently based
-on Android 13.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
 ## Install
 
+
 See install instructions [here](https://docs.waydro.id/usage/install-on-desktops)
 
-## Documentation
+## Usage
 
-Our documentation can be found at [docs.waydro.id](https://docs.waydro.id)
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## Reporting bugs
+## Configuration
 
-If you have found an issue with Waydroid, please [file a bug](https://github.com/Waydroid/waydroid/issues/new/choose).
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-## Get in Touch
+## CI
 
-If you want to get in contact with the developers please feel free to join the
-*Waydroid* groups in [Matrix](https://matrix.to/#/#waydroid:matrix.org) or [Telegram](https://t.me/WayDroid).
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-Our website can be found at [waydro.id](https://waydro.id/)
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/waydroid`](https://github.com/Interested-Deving-1896/waydroid) and mirrored through:
+
+```
+Interested-Deving-1896/waydroid  ──►  OpenOS-Project-OSP/waydroid  ──►  OpenOS-Project-Ecosystem-OOC/waydroid
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[GPL-3.0](https://github.com/Interested-Deving-1896/waydroid/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
